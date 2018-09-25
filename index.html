@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Complete Bootstrap 4 Website Layout</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+	<style>.carousel-inner > .item > img { width:100%; height:570px; } </style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="#"><h1 class="logotxt">PVH</h1></a>
+		<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=#navbarResponsive>
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="#">Home</a>
+					</li>
+			   <li class="nav-item">
+					<a class="nav-link" href="#">About</a>
+					</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Services</a>
+					</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Team</a>
+					</li>	
+                <li class="nav-item">
+					<a class="nav-link" href="#">Contact</a>
+					</li>
+		</div>
+</div>	
+
+</nav>
+
+<!--- Image Slider -->
+<div class="container-fluid padding">
+<div id="slides" class="carousel slide" data-ride="carousel">
+<ul class="carousel-indicators">
+	<li data-target="#slides" data-slide-to="0" class="active"></li>
+	<li data-target="#slides" data-slide-to="1"></li>
+    <li data-target="#slides" data-slide-to="2"></li>
+</ul>
+<div class="carousel-inner">
+	<div class="carousel-item active">
+		<img src="file:///Users/pointblanksound/Downloads/Bootstrap%204%20Site%20Starter%20Files/wallpaper2you_319933.jpg">
+		<div class="carousel-caption">
+			<h1 class="display-2">Phenomenal Virgin Hair</h1>
+			<h3>Complete Website Layout</h3>
+			<button type="button" class="btn btn-outline-light btn-lg">Shop Bundles</button>
+			
+		</div>
+	</div>
+	<div class="carousel-item">
+		<img src="file:///Users/pointblanksound/Downloads/Bootstrap%204%20Site%20Starter%20Files/yonce-onwhite.jpg">
+		<div class="carousel-caption">
+			<h1 class="display-2">Phenomenal Virgin Hair</h1>
+			<h3>Complete Website Layout</h3>
+		</div>
+	</div>
+	<div class="carousel-item">
+		<img src="file:///Users/pointblanksound/Downloads/Bootstrap%204%20Site%20Starter%20Files/afrobkgrndimg3.jpg">
+	</div>
+
+</div>
+</div>
+</div>
+
+<!--- Jumbotron -->
+<div class="container-fluid">
+<div class="row Jumbotron">
+	<div class="col-xs-12 col-md-9 col-lg-9 col-xl-10">
+		<p class="lead">A web hosting service allows individuals and organizations to make their wesite accwssible via the World Wide Web.</p>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+		<a href="#"><button type="button" class="btn btn-outline-secondary btn-lg">SHOP NOW</button></a>
+	</div>
+</div>	
+</div>
+
+<!--- Welcome Section -->
+<!--<div class="container-fluid">
+<div class="row welcome text-center">	
+	<div class="col-12">
+		<h1 class="display-4">Built by JERMS.</h1>
+	</div>
+	<hr>
+	<div class="col-12">
+		<p class="lead">Welcome to your fabulous hair experience!
+		Phenomenal Virgin Hair is built on customer satisfaction, we have traveled the world to find you the finest virgin hair available.</p>
+
+	</div>
+</div>
+</div>
+
+<!--- Three Column Section --> <!--
+<div class="container-fluid padding">
+<div class="row text-center padding">
+	<div class="col-xs-12 col-sm-6 col-md-4">
+		<i class="fas fa-code"></i>
+		<h3>HTML5</h3>
+		<p>use fontawesome to get icons for site</p>
+	</div>
+	<div class="col-xs-12 col-sm-6 col-md-4">
+		<i class="fas fa-bold"></i>
+		<h3>BOOTSTRAP</h3>
+		<p>used bold as argument for fawesome because there isnt a bstrp icon</p>
+	</div>
+	<div class="col-sm-12 col-md-4">
+		<i class="fab fa-css3"></i>
+		<h3>CSS</h3>
+		<p>use fontawesome to get icons for site</p>
+	</div>
+
+
+</div> -->
+<hr class="my-4">
+</div>	
+
+<!--- Two Column Section -->
+<div class="container-fluid padding">
+<div class="row padding">
+	<div class="col-md-12 col-lg-6">
+		<h2>Have fun with color...</h2>
+		<p>this is a place where you cn add some lorem text so that the size of this section looks more like a heavy test area. some description of whatever the site is about</p>
+		<br>
+		<a href="#" class="btn btn-primary">Learn More</a>
+	</div>
+	<div class="col-lg-6">
+		<img src="file:///Users/pointblanksound/Downloads/Bootstrap%204%20Site%20Starter%20Files/img/grayhair.jpg" class="img-fluid">
+	</div>
+</div>
+</div>
+<hr class="my-4">
+
+<!--- Fixed background -->
+<figure>
+	<div class="fixed-wrap">
+		<div id="fixed"></div>
+	</div>
+</figure>
+
+<!--- Emoji Section -->
+<button class="fun" data-toggle="collapse" data-target="#emoji">Click here</button>
+<div id="emoji" class="collapse">
+<div class="container-fluid padding">
+<div class="row text-center">
+	<div class="col-sm-6 col-md-3">
+		<img class="gif" src="img/gif/panda.gif">
+	</div>
+	<div class="col-sm-6 col-md-3">
+		<img class="gif" src="img/gif/poo.gif">
+	</div>
+	<div class="col-sm-6 col-md-3">
+		<img class="gif" src="img/gif/unicorn.gif">
+	</div>
+	<div class="col-sm-6 col-md-3">
+		<img class="gif" src="img/gif/chicken.gif">
+	</div>
+</div>
+</div>
+</div>
+<hr class="my-4">	
+  
+<!--- Meet the team -->
+<div class="container-fluid padding">
+<div class="row welcome text-center">
+	<div class="col-12">
+		<h1 class="display-4">Meet the Team</h1>
+	</div>
+	<hr>
+</div>
+</div>	
+
+
+<!--- Cards -->
+<div class="container-fluid padding">
+<div class="row padding">
+	<div class="col-md-4">
+		<div class="card">
+			<img class="card-img-top" src="file:///Users/pointblanksound/Downloads/Bootstrap%204%20Site%20Starter%20Files/img/IMG_E0395.jpg">
+			<div class="card-body">
+				<h4 class="card-title">Tarnisha Haughton</h4>
+				<p class="card-text">Mr Haughton is the brand owner/embassador, she is the embodyment of a phenomenal woman</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-4">
+		<div class="card">
+			<img class="card-img-top" src="file:///Users/pointblanksound/Downloads/Bootstrap%204%20Site%20Starter%20Files/img/IMG_E1148.jpg">
+			<div class="card-body">
+				<h4 class="card-title">Jermaine Haughton</h4>
+				<p class="card-text">Jermaine is our in house site developer and marketing specialist</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-4">
+		<div class="card">
+			<img class="card-img-top" src="file:///Users/pointblanksound/Downloads/Bootstrap%204%20Site%20Starter%20Files/img/IMG_0994.jpg">
+			<div class="card-body">
+				<h4 class="card-title">Aya perry</h4>
+				<p class="card-text">some random text about tarnisha</p>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+<!--- Two Column Section -->
+<div class="container-fluid padding">
+<div class="row padding">
+	<div class="col-md-12 col-lg-6">
+		<h2>Our Philosophy</h2>
+		<p>this is a place where you cn add some lorem text so that the size of this section looks more like a heavy test area. some description of whatever the site is about</p>
+		<p>this is a place where you cn add some lorem text so that the size of this section looks more like a heavy test area. some description of whatever the site is about</p>
+		<p>this is a place where you cn add some lorem text so that the size of this section looks more like a heavy test area. some description of whatever the site is about</p>
+		
+		
+	</div>
+	<div class="col-lg-6">
+		<img src="file:///Users/pointblanksound/Downloads/Bootstrap%204%20Site%20Starter%20Files/img/cartoonlady.jpg" class="img-fluid" >
+	</div>
+</div>
+<hr class="my-4">
+</div>
+
+<!--- Connect -->
+<div class="container-fluid padding">
+<div class="row text-center padding">
+	<div class="col-12">
+		<h2>Connect</h2>
+	</div>
+	<div class="col-12 social padding">
+		<a href="#"><i class="fab fa-facebook"></i></a>
+		<a href="#"><i class="fab fa-instagram"></i></a>
+		<a href="#"><i class="fab fa-twitter"></i></a>
+		<a href="#"><i class="fab fa-youtube"></i></a>
+	</div>
+
+</div>
+</div>
+
+<!--- Footer -->
+<footer>
+<div class="container-fluid padding">
+<div class="row text-center">
+	<div class="col-md-4">
+		<img src="img/w3newbie.png">
+		<hr class="light">
+		<p>347-721-0069</p>
+		<p>TARNISHAHAUGHTON78@GMAIL.COM</p>
+		<p>1201 PEACHTREE ST NE  300</p>
+		<p>ATLANTA GA 30304</p>
+	</div>
+	<!--have 2 more clumns to add-->
+</div>
+<div class="col-12">
+	<hr class="light">
+	<h5>&copy JHaughtonDZN.com</h5>
+</div>
+
+</div>
+</div>
+</footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
