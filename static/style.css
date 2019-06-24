@@ -145,6 +145,9 @@ footer {
     .navbar-toggle {
         opacity: 1;
     }
+    .logotxt {
+        font-size: 1.5rem;
+    }
 }
 
 @media (max-width: 576px) {
